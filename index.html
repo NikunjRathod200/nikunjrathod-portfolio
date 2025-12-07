@@ -4,23 +4,29 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nikunj Rathod — Portfolio</title>
-  <meta name="description" content="One-page portfolio generated from resume" />
+  <meta name="description" content="Frontend Developer & Systems Engineer Portfolio" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
+  <div class="bg-animation">
+    <div class="bg-gradient bg-gradient-1"></div>
+    <div class="bg-gradient bg-gradient-2"></div>
+    <div class="bg-gradient bg-gradient-3"></div>
+  </div>
+
+  <header id="header">
+    <div class="header-inner">
       <div class="brand">
         <a href="#hero">Nikunj Rathod</a>
-        <span class="role">Frontend Developer • Systems Engineer</span>
       </div>
-      <nav class="main-nav" id="main-nav">
+      <nav>
         <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
-        <ul>
+        <ul id="nav-menu">
           <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -39,12 +45,12 @@
           <p class="meta">Open to opportunities • Based in Gandhinagar, India</p>
           <div class="cta">
             <a href="#contact" class="btn">Contact Me</a>
-            <a href="Resume_Nikunj_Rathod.pdf" class="btn secondary" target="_blank">Download Résumé</a>
+            <a href="#" class="btn secondary">Download Résumé</a>
           </div>
         </div>
         <div class="hero-card">
           <div class="profile">
-            <div class="avatar" aria-hidden="true">NR</div>
+            <div class="avatar">NR</div>
             <h3>Nikunj Rathod</h3>
             <p class="small">Systems Engineer — Frontend (Angular)</p>
             <p class="small">Email: <a href="mailto:rathodnikunj200@gmail.com">rathodnikunj200@gmail.com</a></p>
@@ -57,47 +63,89 @@
     <section id="about" class="section">
       <div class="container">
         <h2>About</h2>
-        <p>Systems Engineer with experience in frontend development using Angular and TypeScript. M.Tech (ICT) with a Machine Learning focus. I build modular, accessible frontends, integrate REST APIs, and design reliable workflows for enterprise applications.</p>
+        <p class="about-text">
+          Systems Engineer with experience in frontend development using Angular and TypeScript. M.Tech (ICT) with a Machine Learning focus. I build modular, accessible frontends, integrate REST APIs, and design reliable workflows for enterprise applications.
+        </p>
       </div>
     </section>
 
     <section id="education" class="section">
       <div class="container">
         <h2>Education</h2>
-        <div class="education-list">
+        <div class="education-list fade-in">
           <article class="edu">
             <h3>Master of Technology in ICT (Machine Learning)</h3>
             <p class="muted">
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> 2022–24</span>
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/><circle cx="12" cy="10" r="2.2" fill="currentColor"/></svg> Gandhinagar</span>
-              <span class="meta-item muted-quiet"> • Dhirubhai Ambani Institute of Information and Communication Technology — CGPA: 7.31</span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 2022–24
+              </span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/>
+                  <circle cx="12" cy="10" r="2.2" fill="currentColor"/>
+                </svg> Gandhinagar
+              </span>
+              <span class="meta-item">Dhirubhai Ambani Institute of Information and Communication Technology — CGPA: 7.31</span>
             </p>
           </article>
 
           <article class="edu">
             <h3>Bachelor of Technology in Computer Engineering</h3>
             <p class="muted">
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> 2018–22</span>
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/><circle cx="12" cy="10" r="2.2" fill="currentColor"/></svg> Anand</span>
-              <span class="meta-item muted-quiet"> • Birla Vishvakarma Mahavidyalaya — CGPA: 7.17</span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 2018–22
+              </span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/>
+                  <circle cx="12" cy="10" r="2.2" fill="currentColor"/>
+                </svg> Anand
+              </span>
+              <span class="meta-item">Birla Vishvakarma Mahavidyalaya — CGPA: 7.17</span>
             </p>
           </article>
 
           <article class="edu">
             <h3>Higher Secondary (Std-12)</h3>
             <p class="muted">
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> 2017–18</span>
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/><circle cx="12" cy="10" r="2.2" fill="currentColor"/></svg> Rajkot</span>
-              <span class="meta-item muted-quiet"> • The School of Science — Percentage: 84%</span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 2017–18
+              </span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/>
+                  <circle cx="12" cy="10" r="2.2" fill="currentColor"/>
+                </svg> Rajkot
+              </span>
+              <span class="meta-item">The School of Science — Percentage: 84%</span>
             </p>
           </article>
 
           <article class="edu">
             <h3>Secondary (Std-10)</h3>
             <p class="muted">
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> 2015–16</span>
-              <span class="meta-item"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/><circle cx="12" cy="10" r="2.2" fill="currentColor"/></svg> Bhuj</span>
-              <span class="meta-item muted-quiet"> • Sanskar School — Percentage: 89%</span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M16 3v4M8 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 2015–16
+              </span>
+              <span class="meta-item">
+                <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.25" fill="none"/>
+                  <circle cx="12" cy="10" r="2.2" fill="currentColor"/>
+                </svg> Bhuj
+              </span>
+              <span class="meta-item">Sanskar School — Percentage: 89%</span>
             </p>
           </article>
         </div>
@@ -107,12 +155,12 @@
     <section id="experience" class="section">
       <div class="container">
         <h2>Experience</h2>
-        <div class="timeline">
+        <div class="timeline fade-in">
           <article class="job">
             <h3>Systems Engineer – Frontend Developer — Tata Consultancy Services (TCS)</h3>
             <p class="muted">Nov 2024 – Present • Gandhinagar, India</p>
             <ul>
-              <li>Developed Angular reactive forms with custom and built-in validations for the Income Tax Department’s HRMS module.</li>
+              <li>Developed Angular reactive forms with custom and built-in validations for the Income Tax Department's HRMS module.</li>
               <li>Implemented dynamic form controls, reusable validation services, and modular architecture for maintainability and scalability.</li>
               <li>Optimized form handling and state management to improve user experience and reduce input errors.</li>
             </ul>
@@ -124,7 +172,7 @@
     <section id="projects" class="section">
       <div class="container">
         <h2>Selected Projects</h2>
-        <div class="projects-grid">
+        <div class="projects-grid fade-in">
           <article class="project">
             <h3><a href="#">SynergyHR</a></h3>
             <p>Angular/TypeScript frontend for leave, employee, and appraisal modules. Implemented reusable components, reactive forms, lazy loading, interceptors, and tests to improve performance and reliability.</p>
@@ -144,7 +192,7 @@
     <section id="skills" class="section">
       <div class="container">
         <h2>Skills</h2>
-        <div class="skill-list">
+        <div class="skill-list fade-in">
           <span class="skill">Java</span>
           <span class="skill">Python</span>
           <span class="skill">C++</span>
@@ -166,8 +214,8 @@
     <section id="contact" class="section contact">
       <div class="container">
         <h2>Contact</h2>
-        <p>If you'd like to get in touch, send an email or use the form below.</p>
-        <div class="contact-grid">
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem;">If you'd like to get in touch, send an email or use the form below.</p>
+        <div class="contact-grid fade-in">
           <form id="contact-form">
             <label for="name">Name</label>
             <input id="name" name="name" type="text" placeholder="Your name" required>
@@ -198,7 +246,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>© <span id="year"></span> Nikunj Rathod — All rights Reserved.</p>
+        <p>©️ <span id="year"></span> Nikunj Rathod — All rights Reserved.</p>
       </div>
     </footer>
   </main>
