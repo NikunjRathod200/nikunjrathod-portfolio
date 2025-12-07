@@ -1,0 +1,63 @@
+ 
+ 
+ 
+Education 
+Nikunj Rathod 
+ rathodnikunj200@gmail.com     +916353726414     nikunjrathod     NikunjRathod200 
+Dhirubhai Ambani University, Gandhinagar 
+Master of Technology in ICT (Machine Learning) 
+Birla Vishvakarma Mahavidyalaya, Anand 
+Bachelor of Technology in Computer Engineering 
+The School of Science, Rajkot 
+Std-12 (Higher Secondary) 
+Sanskar School, Bhuj 
+Std-10 (Secondary) 
+Skills 
+Programming Languages: Java, Python, SQL, C++, JavaScript 
+Frameworks: Angular 
+Databases: PostgreSQL, MySQL, DB2 
+Tools: Maven, Postman, PowerBI, SVN, 
+2022-24 
+CGPA - 7.31 
+2018-22 
+CGPA - 7.17 
+2017-18 
+  Percentage - 84.00% 
+2015-16 
+Percentage - 89.00% 
+Concepts: Data Structures, OOPs, DBMS, Machine Learning, Reinforcement Learning 
+Experience 
+Systems Engineer – Frontend Developer 
+Tata Consultancy Services (TCS), Gandhinagar 
+Nov 2024 – Present 
+◦ Developed Angular Reactive Forms with custom and built-in validations to ensure accurate data 
+capture for the Income Tax Department’s HRMS module. 
+◦ Optimized form handling with state management and error messaging patterns, improving user 
+experience and reducing input errors. 
+◦ Implemented dynamic form controls and reusable validation services to handle complex 
+workflows and followed Angular best practices for modular architecture, maintainability, and scalability 
+Projects 
+SynergyHR 
+Technologies: Angular, TS, HTML, CSS, REST APIs, JWT Auth, WebSocket  
+June 2024 – Oct 2024 
+◦ Developed SynergyHR’s AngularJS frontend for leave, employee, and appraisal modules using reusable 
+components, directives, reactive forms, and REST integrations. 
+◦ Improved performance via lazy loading, interceptors, route guards, pagination, and E2E/unit tests to 
+enhance reliability and user experience.
+GenAI-Integrated Document Assistant 
+Technology Used: JS, Angular, REST APIs, Python, LLM 
+Jan 2024 - May 2024 
+◦ Building a GenAI-integrated document assistant, implementing Angular TypeScript UI with chat, 
+summarization, and retrieval features, connected to ML FastAPI services. 
+◦ Designed secure RAG pipelines, FastAPI inference endpoints, and observability; optimized prompts, 
+caching, and token costs; delivered responsive, accessible Angular components.
+Phishing Website Detection through Reinforcement Learning 
+Technology Used: Python, Reinforcement Learning, NLP 
+May 2023 - Dec 2023 
+◦ Used RL based deep Q-Network to classify whether the URL is phishing or legitimate. 
+◦ Twelve different features extracted from URL including address bar and JS/HTML based features. 
+Achievements 
+◦ Two times GATE (2021,2022) Qualified with a score of 395 in Computer Science and Engineering. 
+◦ Served as a Teaching Assistant for courses including Data Analysis and Algorithms, Data 
+Structures, and Statistics at DAIICT, assisting students in lab sessions and evaluations. 
+◦ Served as a Student Placement Cell Member of the entire batch for year 2022-23 at DAIICT. 
