@@ -1,32 +1,49 @@
-# One-page Portfolio (Resume → Website)
+# Portfolio — Nikunj Rathod
 
-This is a minimal, responsive single-page portfolio built from a résumé-style layout.
+A responsive single-page portfolio website showcasing experience, education, projects, and skills. Built with vanilla HTML, CSS, and JavaScript.
 
-Files:
-- `index.html` — main page. Edit the sections (About, Experience, Projects, Skills, Contact).
-- `styles.css` — styles for layout and theme.
-- `script.js` — small UI helpers (smooth scroll, nav toggle, contact mailto).
+## Live Site
+https://nikunjrathod200.github.io/nikunjrathod-portfolio/
 
-Quick start (view locally):
+## Project Files
+- `index.html` — main page with sections: Hero, About, Education, Experience, Projects, Skills, and Contact.
+- `styles.css` — responsive styles with dark theme and modern layout.
+- `script.js` — interactive features: smooth navigation, mobile menu toggle, contact form mailto handler.
+
+## Local Development
+
+Run locally to preview changes:
 
 ```bash
-# from this folder
 cd /Users/nikunjrathod/Project/portfolio
-# serve on http://localhost:8000
 python3 -m http.server 8000
+# open http://localhost:8000 in your browser
 ```
 
-Open `http://localhost:8000` in your browser.
+## Customization
 
-Customization tips:
-- Replace placeholder text (YOUR NAME, you@example.com, project descriptions) in `index.html`.
-- Replace `resume.pdf` with your actual resume file if you want the download link to work.
-- Update the email in `script.js` (variable `to`) for the contact form behavior.
-- To deploy, you can push these files to GitHub Pages, Netlify, or Vercel as a static site.
+To personalize the portfolio:
+- **Content**: Edit section text, links, and descriptions directly in `index.html`.
+- **Contact email**: Update `rathodnikunj200@gmail.com` in `index.html` (hero card) and `script.js` (contact form variable `to`).
+- **Styling**: Modify colors, fonts, and layout in `styles.css` (CSS variables are in `:root`).
+- **Add a resume**: Place your resume PDF in the project folder and update the link in the hero section.
 
-Want me to:
-- Plug your actual resume content into the template? (I can extract text if you upload your resume.)
-- Style it to match your favorite colors and fonts?
-- Prepare a GitHub Pages-friendly `index.html` and commit/README automation?
+## Deployment
 
-Tell me which of the above you'd like next and share your resume or preferences if you want content inserted.
+Currently deployed on GitHub Pages. To update:
+
+```bash
+git add .
+git commit -m "Update portfolio content"
+git push origin master
+```
+
+Changes appear at the live site within minutes.
+
+## Technologies
+
+- HTML5
+- CSS3 (with CSS variables for theming)
+- Vanilla JavaScript (no frameworks)
+- Responsive design (mobile-first)
+- Dark theme with accent colors (Indigo & Cyan)
